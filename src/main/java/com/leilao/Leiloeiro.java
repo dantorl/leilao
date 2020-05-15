@@ -30,7 +30,7 @@ public class Leiloeiro {
         this.leilao = leilao;
     }
 
-    public Lance maiorLance(Leilao leilao) {
+    public Lance maiorLance() {
         List<Lance> lances = leilao.getLances();
         Lance retornaLance = new Lance();
         double maiorValor = 0;
